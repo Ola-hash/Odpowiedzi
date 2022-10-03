@@ -1,0 +1,15 @@
+1.
+1.A. W jakim celu używa się klas abstrakcyjnych, a w jakim interfejsów?
+Klasy abstrakcyjne są to klasy zdefiniowane przez kluczowe słowo abstract, które służą do definiowania klas o charakterze abstrakcyjnym. 
+Mogą zawierać zwykłe metody lub metody abstrakcyjne. Są to klasy, których nie można utworzyć obiektu. Klasy abstrakcyjne się dziedziczy. Można dziedziczyć tylko jedną klasę.
+
+Zadaniem interfejsu jest definiowanie zachowania danego obiektu. Może posiadać stałe, metody statyczne, metody prywatne, metody domyślne (z implementacją) oraz "zwykłe" bez implementacji,
+które klasa implementująca interfejs musi zaimplementować.
+Klasa może implementować wiele interfejsów.
+
+
+1.B. Czym różni się tablica od listy liniowej?
+W tablicach przechowywane są dane o określonej ilości, zaś listy przechowują dane dynamicznie, co oznacza że mogą zmieniać swój rozmiar w czasie działania programu.
+W tablicy jest znacznie szybszy odczyt elementów, ponieważ działa ona na indeksach. W listach aby odszukać konkretną wartość konieczne jest przeiterowanie po całej liście,
+co jest bardziej czasochłonne. Usuwanie elementów korzystniejsze jest w listach, ponieważ po usunięciu danego elementu zmianie podlegają tylko odnośniki do kolejnego elementu
+w dwóch elementach obok usuwanego. Natomiast w tablicy musimy zmieniać położenie wszystkich elementów znajdujących się za usuwanym elementem.
